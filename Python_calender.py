@@ -24,9 +24,8 @@ if __name__=='__main__':
     year = Label(new, text="Enter year", bg='dark grey')
     year_field=Entry(new)
     button = Button(new, text='Show Calender',
-fg='Black',bg='Blue',command=showCalender)
-
-    #putting widgets in position
+    fg='Black',bg='Blue',command=showCalender)
+#putting widgets in position
     cal.grid(row=1, column=1)
     year.grid(row=2, column=1)
     year_field.grid(row=3, column=1)
